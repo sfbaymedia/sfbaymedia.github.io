@@ -89,7 +89,7 @@ a:after {
 }
 
 .navbar-default {
-	background-color: #3498db;
+	background-color: #111;
 	border-color: transparent;
 }
 
@@ -123,7 +123,7 @@ i {
 /* HeaderWrap */
 #headerwrap {
 	/* background: url(../img/bg01.jpg) no-repeat center top; */
-	background-color: #3498db;
+	background-color: #222;
 	margin-top: -20px;
 	padding-top:200px;
 	background-attachment: relative;
@@ -149,4 +149,16 @@ i {
 	font-size: 45px;
 	font-weight: 300;
 	letter-spacing: 1px;
+}
+
+@media screen and (max-width: 1200px) {
+
+	#headerwrap {
+		padding-top:50px;
+	}
+
+	#spotlightform {
+		padding-bottom:40px;
+	}
+
 }

@@ -37,7 +37,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><b>SF Bay Media</b></a>
+          <a class="navbar-brand" href="index.html"><b>SF Bay Media</b></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -53,11 +53,14 @@
 				<div class="col-lg-6">
 					<h1>It is time we tell<br/>
 					our own stories.</h1>
-					<form class="form-inline" id="spotlightform" role="form">
+					<form class="form-inline" id="spotlightform" role="form" method="post" action="https://lists.riseup.net/www">
+					  <input type="hidden" name="list" value="sfbaymedia-announce">
+					  <input type="hidden" name="action" value="subrequest">
+					  <input type="hidden" name="via_subrequest" value="1">
 					  <div class="form-group">
-					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Add email address for updates">
+					    <input type="email" class="form-control" id="email" name="email" placeholder="Add email address for updates">
 					  </div>
-					  <button type="submit" class="btn btn-danger btn-lg">Submit</button>
+					  <button type="submit" class="btn btn-danger btn-lg" name="action_subrequest" value="submit">Submit</button>
 					</form>					
 				</div><!-- /col-lg-6 -->
 				<div class="col-lg-6">

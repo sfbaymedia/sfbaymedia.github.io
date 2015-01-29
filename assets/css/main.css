@@ -155,6 +155,37 @@ i {
 	letter-spacing: 1px;
 }
 
+#background-video {
+
+    /* Your background image */
+
+    background-image: url('../../assets/img/ipad-hand.png');
+
+    background-repeat: no-repeat;
+    width:422px;
+    height:500px;
+   padding: 130px 45px 100px 45px;
+}
+
+#vidwrap {
+
+    /* Your thumbnail image */
+
+/*    background: url('../../assets/img/play-arrow.png') no-repeat center;*/
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow:hidden;
+    background-repeat: no-repeat;
+    width:422px;
+    height:500px;
+    cursor:pointer;
+}
+
+/* Media Styles */
+
 @media screen and (max-width: 1200px) {
 
 	#headerwrap {

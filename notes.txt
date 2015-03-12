@@ -1,0 +1,13 @@
+
+git pull = downloads newest version and synchs to my version.
+get log = show changes done.
+get add <path here> = to upload images, for example: get add assets/img/imageexample.jpg
+git diff = shows changes
+git status = shows status 
+git commit -am "commit comments go here" = to commit changes
+git push = to upload files updated and additional files
+
+
+Daniel's notes. :)
+March 11, 2015
+
